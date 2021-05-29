@@ -26,8 +26,26 @@ button {
     justify-content: space-around;
 }
 
+#canvas {
+    border-style: solid;
+    border-color: tan;
+    max-width: 100%;
+    background-size: 40px 40px;
+    background-image: linear-gradient(to right, grey 1px, transparent 1px), linear-gradient(to bottom, grey 1px, transparent 1px);
+    background-color: white;
+}
+
+#popup {
+    height: 0;
+    transition: all ease-in-out 0.5s;
+}
+
 @media (max-width: 700px) {
     #Tools {
         height: 150px;
     }
+}
+
+.canvas {
+    cursor: pointer;
 }

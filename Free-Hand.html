@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Metix</title>
     <link rel="stylesheet" href="fhstyle.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
@@ -16,9 +16,15 @@
             <button type="button" id="cut"><img src="https://img.icons8.com/metro/16/000000/cut.png" alt="cut"/></button>
             <button type="button" id="copy"><img src="https://img.icons8.com/metro/16/000000/copy.png" alt="copy"/></button>
             <button type="button" id="paste"><img src="https://img.icons8.com/metro/16/000000/paste.png" alt="paste"/></button>
+            <button type="button" id="increase"><img src="https://img.icons8.com/android/16/000000/plus.png" alt="increase"/></button>
+            <button type="button" id="decrease"><img src="https://img.icons8.com/android/16/000000/minus.png" alt="minus"/></button>
+            <button type="button" id="color" value="black"><img src="https://img.icons8.com/cotton/16/000000/color-palette.png" alt="color"/></button>
+            <button type="button" id="clear"><img src="https://img.icons8.com/material-sharp/16/000000/clear-symbol--v1.png" alt = "clear"/></button>
+            <button type="button" id="size">size</button>
+
         </span>
         <span id="BasicTools">
-            <button type="button" id="pen_pencil"><img src="https://img.icons8.com/android/16/000000/pen.png" alt="pen_pencil"/></button>
+            <button type="button" id="pen_pencil" ><img src="https://img.icons8.com/android/16/000000/pen.png" alt="pen_pencil"/></button>
             <button type="button" id="eraser"><img src="https://img.icons8.com/android/16/000000/eraser.png" alt="eraser"/></button>
             <button type="button" id="fill"><img src="https://img.icons8.com/android/16/000000/fill-color.png" alt="fill"/></button>
         </span>
@@ -32,8 +38,13 @@
             <button type="button" id="textBox"><img src="https://img.icons8.com/material-two-tone/16/000000/text.png" alt="text" /></button>
         </span>
     </div>
-    <div id="canvas">
+    <div id="popup" style="text-align: center;">
+        The Message will be displayed here
+    </div>
+    <div>
+        <canvas id="canvas">
 
+        </canvas>
     </div>
     <script src="fhscript.js"></script>
 </body>

@@ -11,13 +11,12 @@ const erase = document.getElementById("eraser");
 const pencil = document.getElementById("pen_pencil");
 
 
-let size = 5
-let erase_size = 20
-let isPressed = false
-colorEl.value = 'black'
-let color = colorEl.value
-let x
-let y
+let size = 5;
+let erase_size = 20;
+let isPressed = false;
+let color = colorEl.value;
+let x;
+let y;
 let gl = false;
 let pen = true;
 let eraser = false;
@@ -35,20 +34,20 @@ erase.addEventListener('click', (e) => {
     pen = false;
     eraser = true;
 
-})
+});
 canvas.addEventListener('mousedown', (e) => {
     if (eraser == true) {
         isPressed = true
         x = e.offsetX
         y = e.offsetY
     }
-})
+});
 
 canvas.addEventListener('mouseup', (e) => {
     isPressed = false
     x = undefined
     y = undefined
-})
+});
 
 
 function removeProperty() {
@@ -76,14 +75,14 @@ gline.addEventListener('click', (e) => {
         removeProperty();
         gl = false;
     }
-})
+});
 
 pencil.addEventListener('click', (e) => {
     console.log("Eraser deactive");
     pen = true;
     eraser = false;
 
-})
+});
 
 document.addEventListener('keydown', (e) => {
     if (e.ctrlKey) {
@@ -92,14 +91,13 @@ document.addEventListener('keydown', (e) => {
         x = e.offsetX
         y = e.offsetY
     }
-})
+});
 
 document.addEventListener('keyup', (e) => {
     isPressed = false
-
     x = undefined
     y = undefined
-})
+});
 
 canvas.addEventListener('mousemove', (e) => {
     if (isPressed) {
@@ -112,7 +110,7 @@ canvas.addEventListener('mousemove', (e) => {
         x = x2
         y = y2
     }
-})
+});
 
 function drawCircle(x, y) {
     ctx.beginPath();
@@ -147,7 +145,7 @@ increaseBtn.addEventListener('click', () => {
     }
 
     updateSizeOnScreen()
-})
+});
 
 decreaseBtn.addEventListener('click', () => {
     size -= 5
@@ -157,11 +155,11 @@ decreaseBtn.addEventListener('click', () => {
     }
 
     updateSizeOnScreen()
-})
+});
 
-colorEl.addEventListener('change', (e) => color = e.target.value)
+colorEl.addEventListener('change', (e) => color = e.target.value);
 
-clearEl.addEventListener('click', () => ctx.clearRect(0, 0, canvas.width, canvas.height))
+clearEl.addEventListener('click', () => ctx.clearRect(0, 0, canvas.width, canvas.height));
 
 function check() {
     console.log("Working");

@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Metix</title>
     <link rel="stylesheet" href="fhstyle.css">
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/fabric.js/1.7.11/fabric.min.js"></script>
+
+
 
 </head>
 
@@ -18,7 +21,14 @@
             <button type="button" id="paste"><img src="https://img.icons8.com/metro/16/000000/paste.png" alt="paste"/></button>
             <button type="button" id="increase"><img src="https://img.icons8.com/android/16/000000/plus.png" alt="increase"/></button>
             <button type="button" id="decrease"><img src="https://img.icons8.com/android/16/000000/minus.png" alt="minus"/></button>
-            <button type="button" id="color" value="black"><img src="https://img.icons8.com/cotton/16/000000/color-palette.png" alt="color"/></button>
+            <button type="button" id="color"><img src="https://img.icons8.com/cotton/16/000000/color-palette.png" alt="color"/></button>
+            <div id="color-palette" hidden >
+                <button type="button" id="black" value="black">Black</button>
+                <button type="button" id="grey" value="grey">Grey</button>
+                <button type="button" id="red" value="red">Red</button>
+                <button type="button" id="blue" value="blue">Blue</button>
+                <button type="button" id="green" value="green">Green</button>
+            </div>
             <button type="button" id="clear"><img src="https://img.icons8.com/material-sharp/16/000000/clear-symbol--v1.png" alt = "clear"/></button>
             <button type="button" id="size">size</button>
 
@@ -27,9 +37,14 @@
             <button type="button" id="pen_pencil" ><img src="https://img.icons8.com/android/16/000000/pen.png" alt="pen_pencil"/></button>
             <button type="button" id="eraser"><img src="https://img.icons8.com/android/16/000000/eraser.png" alt="eraser"/></button>
             <button type="button" id="fill"><img src="https://img.icons8.com/android/16/000000/fill-color.png" alt="fill"/></button>
+            <button type="button" id="shape_edit"><img src="https://img.icons8.com/android/16/000000/fill-color.png" alt="fill"/></button>
         </span>
         <span id="AdvancedTools">
             <button type="button" id="shapes"><img src="https://img.icons8.com/material-rounded/16/000000/starburst-shape.png" alt="shapes"/></button>
+            <div id="shapesOption" >
+                <button type="button" id="rect" value="rect">Rectangle</button>
+                <button type="button" id="circle" value="circle">Circle</button>
+            </div>
             <button type="button" id="gridline"><img src="https://img.icons8.com/ios/16/000000/activity-grid--v1.png"/ alt="gridlines"></button>
             <button type="button" id="zoom"><img src="https://img.icons8.com/fluent-systems-filled/16/000000/zoom-to-extents.png" alt="zoom"/></button>
             <button type="button" id="stickyNotes"><img src="https://img.icons8.com/fluent/16/000000/sticky-notes.png" alt="stickyNotes"/></button>
@@ -47,6 +62,8 @@
         </canvas>
     </div>
     <script src="fhscript.js"></script>
+    <script src="colorPalette.js"></script>
+    <script src="shapes.js"></script>
 </body>
 
 </html>

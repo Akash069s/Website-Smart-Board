@@ -26,7 +26,7 @@ Each subject will have two options
     f. Triangle( rt. angled + normal) <br>
     g. Square <br>
 8. Gridlines (Added)
-9. Zoom In/ Out   
+9. Zoom In/ Out   (Added)
 10. Sticky Notes
 11. Calculator
 12. Mathematical Symbols

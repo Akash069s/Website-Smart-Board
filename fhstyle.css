@@ -24,16 +24,29 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    z-index: 20;
 }
 
 #canvas {
+    position: absolute;
     border-style: solid;
     border-color: tan;
     max-width: 100%;
     background-size: 40px 40px;
     background-image: linear-gradient(to right, grey 1px, transparent 1px), linear-gradient(to bottom, grey 1px, transparent 1px);
     background-color: white;
-    z-index: 10;
+    z-index: 0;
+}
+
+#canvas2 {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    border-style: solid;
+    border-color: tan;
+    max-width: 100%;
+    background-color: transparent;
+    z-index: 5;
 }
 
 #popup {
@@ -63,8 +76,4 @@ button {
     #Tools {
         height: 150px;
     }
-}
-
-.canvas {
-    cursor: pointer;
 }

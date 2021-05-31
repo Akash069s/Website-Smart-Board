@@ -34,6 +34,7 @@ colorEl.addEventListener('click', (e) => {
         console.log("Palette active");
         cp.hidden = false;
         cpactive = true;
+        document.getElementById("color-palette").style.zIndex = '20';
     }
 
 })

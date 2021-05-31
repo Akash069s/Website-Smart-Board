@@ -11,11 +11,11 @@ Each subject will have two options
 
 ### Free-Hand
 #### Tools required
-1. Copy
+1. Copy 
 2. Paste
 3. Cut
-4. Eraser
-5. Pencil/Pen
+4. Eraser  (Added)
+5. Pencil/Pen (Added)
 6. Fill
 7. Geometric shapes<br>
     a. Line<br>
@@ -25,12 +25,13 @@ Each subject will have two options
     e. Rectangle<br>
     f. Triangle( rt. angled + normal) <br>
     g. Square <br>
-8. Gridlines
+8. Gridlines (Added)
 9. Zoom In/ Out   
 10. Sticky Notes
 11. Calculator
 12. Mathematical Symbols
 13. TextBox
+14. Color changer for Pen (Added)
 
 ##### Drawing Circle
 

@@ -14,7 +14,7 @@ Each subject will have two options
 1. Copy 
 2. Paste
 3. Cut
-4. Eraser  (Added)
+4. Eraser  (Added)<br><t>a.Resizing icon(Added)
 5. Pencil/Pen (Added)
 6. Fill
 7. Geometric shapes<br>

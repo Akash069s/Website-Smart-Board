@@ -27,7 +27,7 @@ Each subject will have two options
     g. Square <br>
 8. Gridlines (Added)
 9. Zoom In/ Out   (Added)
-10. Sticky Notes
+10. Sticky Notes  (Added)
 11. Calculator
 12. Mathematical Symbols
 13. TextBox

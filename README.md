@@ -11,9 +11,9 @@ Each subject will have two options
 
 ### Free-Hand
 #### Tools required
-1. Copy 
-2. Paste
-3. Cut
+1. ~~Copy~~
+2. ~~Past~e~
+3. ~~Cut~~
 4. Eraser  (Added)<br><t>a.Resizing icon(Added)
 5. Pencil/Pen (Added)
 6. Fill
